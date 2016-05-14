@@ -1,0 +1,223 @@
+/* CSS Document */
+
+body {
+	
+background: url('images/texture.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding: 30pt;
+
+}
+
+
+img{align-content:center;
+}
+
+
+h1 { 
+	color: white; 
+	text-align:center; 
+  
+}
+
+h2 {
+	text-align: center;
+	background-color: #15EF77;
+	padding: 12px; 
+	
+}
+
+
+
+h3 {
+	text-align: center;
+	color: white;
+}
+
+
+	
+img.image1 {	
+	padding: 15px;
+}	
+
+
+p { 
+	background-color: #1BD2E9;
+	padding: 30pt;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ nav {  
+      height: 50px;  
+      width: 100%;  
+      background: #2E2B2B;  
+      font-size: 13pt;  
+	  font-family: 'Palanquin', sans-serif; 
+      font-weight: bold;  
+      position: relative;
+	  border-top:  5px solid #ffffff;
+      border-bottom: 5px solid #ffffff;  
+  }  
+  nav ul {  
+      padding: 0;  
+      margin: 0 auto; 
+	  width: 1200px;   
+      height: 40px;  
+  }  
+  nav li {  
+     display: inline;  
+     float: left;  
+     list-style-type: none;  
+ }
+
+ .clearfix:before,  
+ .clearfix:after {  
+  content: " ";  
+  display: table;  
+}  
+.clearfix:after {  
+  clear: both;  
+}  
+.clearfix {  
+  *zoom: 1;  
+}  
+
+nav a {  
+  color: #fff;  
+  display: inline-block;  
+  width: 200px;  
+  text-align: center;  
+  text-decoration: none;  
+  line-height: 50px;  
+  text-shadow: 1px 1px 0px #000;
+} 
+nav li a {  
+    border-right: 2px solid #ffffff;  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+nav li:last-child a {  
+    border-right: 0;  
+} 
+
+nav a:hover, nav a:active {  
+    background-color: #8c99a4;  
+}
+
+nav a#pull {  
+    display: none;  
+} 
+
+#banner {
+		height: auto;
+	margin-bottom: .5em;
+	background: #ddd;
+}
+	
+
+
+
+
+
+
+/*tablet screens*/
+@media screen and (max-width: 600px) {  
+    nav {   
+        height: auto;  
+    }  
+    nav ul {  
+        width: 100%;  
+        display: block;  
+        height: auto;  
+    }  
+    nav li {  
+        width: 50%;  
+        float: left;  
+        position: relative;  
+    }  
+    nav li a {  
+        border-bottom: 1px solid #666;  
+        border-right: 1px solid #666;  
+    }  
+    nav a {  
+        text-align: left;  
+        width: 100%;  
+        text-indent: 25px;  
+    }  
+}  
+
+@media only screen and (max-width: 480px) {  
+    nav {  
+        border-bottom: 0;  
+    }  
+    nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #666;
+    }
+
+    nav a#pull {  
+        display: block;  
+        background-color: #333; 
+        border-bottom: 1px solid #666; 
+        width: 100%;  
+        position: relative;  
+    }  
+    nav a#pull:after {  
+        content: "\f0c9";
+        font-family: FontAwesome;
+        width: 64px;  
+        height: 64px;  
+        display: inline-block;  
+        position: absolute;  
+        left: 50px;  
+        top: 0px;  
+    }  
+	
+
+	
+	
+
+}
+	
+

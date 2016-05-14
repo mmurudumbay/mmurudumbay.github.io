@@ -1,0 +1,37 @@
+/* CSS Document */
+
+body {
+background-color: #ffd6a3;	
+}
+
+h1 {
+text-align: center;
+font-family: 'Shadows Into Light', cursive;	
+font-size: 50px;
+text-shadow: 4px 4px 4px #aaa;
+}
+
+h2{
+text-align: center;
+font-family: 'Shadows Into Light', cursive;	
+font-size: 33px;
+
+}
+
+
+h3{
+	font-family: 'Shadows Into Light', cursive;	
+font-size: 30px;
+
+}
+	
+p{	
+font-family: 'Life Savers', cursive;	
+padding: 10px;
+}
+
+ul{
+font-family: 'Life Savers', cursive;	
+background: #FBBB2B;
+padding: 30px;
+}

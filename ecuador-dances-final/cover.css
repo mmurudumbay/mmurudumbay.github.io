@@ -1,0 +1,45 @@
+body {
+	background: url('images/texture.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding: 30pt; 
+}
+
+#title {
+	position: absolute;
+	bottom: 3%;
+	left: 25%;
+	width: 50%;
+	text-align: center;
+	
+	-webkit-transition: color ease-in 3.3s;
+	-moz-transition: color ease-in 3.3s;
+	-o-transition: color ease-in 3.3s;
+}
+
+
+#title h1 a:link {
+	color: white;
+	text-decoration: none;
+}
+#title h1 a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#title h1 a:hover {
+	color: yellowgreen;
+}
+#title h1 a:active {
+	color: orange;
+	text-decoration: underline;
+}
+
+
+.welcome_vid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: auto;
+	
+}
