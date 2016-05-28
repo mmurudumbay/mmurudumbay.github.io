@@ -2,10 +2,10 @@
 
 body {
 	
-background: url('images/texture.jpg') no-repeat center center fixed;
-	background-size: cover;
-	padding: 30pt;
-
+background: #16A085; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #16A085 , #F4D03F); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #16A085 , #F4D03F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
 
 
@@ -14,14 +14,18 @@ img{align-content:center;
 
 
 h1 { 
-	color: white; 
-	text-align:center; 
+	height: 2em; /* 16*6=96px */
+	text-align:center;
+	padding: 2em;
+	background: black;
+	margin-bottom: .5em;
+	
   
 }
 
 h2 {
 	text-align: center;
-	background-color: #15EF77;
+	background-color: none;
 	padding: 12px; 
 	
 }
@@ -30,7 +34,7 @@ h2 {
 
 h3 {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 
@@ -41,9 +45,89 @@ img.image1 {
 
 
 p { 
-	background-color: #1BD2E9;
+	background-color: none;
 	padding: 30pt;
-	
+	color: black;
+
+	}
+
+
+
+
+
+#title h1 a:link {
+	color: black;
+	text-decoration: none;
+}
+#title h1 a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#title h1 a:hover {
+	color: yellowgreen;
+}
+#title h1 a:active {
+	color: orange;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF SIX  */
+.span_6_of_6 {
+	width: 100%;
+}
+
+.span_5_of_6 {
+  	width: 83.06%;
+}
+
+.span_4_of_6 {
+  	width: 66.13%;
+}
+
+.span_3_of_6 {
+  	width: 49.2%;
+}
+
+.span_2_of_6 {
+  	width: 32.26%;
+}
+
+.span_1_of_6 {
+  	width: 15.33%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
 }
 
 
@@ -63,36 +147,22 @@ p {
 
 
 
+/*   NAVIGATION BAR  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- nav {  
-      height: 50px;  
+    nav {  
+      height: 40px;  
       width: 100%;  
-      background: #2E2B2B;  
-      font-size: 13pt;  
-	  font-family: 'Palanquin', sans-serif; 
+      background: black;  
+      font-size: 11pt;  
+      font-family: Arial, sans-serif;  
       font-weight: bold;  
-      position: relative;
-	  border-top:  5px solid #ffffff;
-      border-bottom: 5px solid #ffffff;  
+      position: relative;  
+      border-bottom: 1px solid #666;  
   }  
   nav ul {  
       padding: 0;  
-      margin: 0 auto; 
-	  width: 1200px;   
+      margin: 0 auto;  
+      width: 600px;  
       height: 40px;  
   }  
   nav li {  
@@ -116,14 +186,14 @@ p {
 nav a {  
   color: #fff;  
   display: inline-block;  
-  width: 200px;  
+  width: 100px;  
   text-align: center;  
   text-decoration: none;  
-  line-height: 50px;  
+  line-height: 40px;  
   text-shadow: 1px 1px 0px #000;
 } 
 nav li a {  
-    border-right: 2px solid #ffffff;  
+    border-right: 1px solid #666;  
     box-sizing:border-box;  
     -moz-box-sizing:border-box;  
     -webkit-box-sizing:border-box;  
@@ -139,18 +209,6 @@ nav a:hover, nav a:active {
 nav a#pull {  
     display: none;  
 } 
-
-#banner {
-		height: auto;
-	margin-bottom: .5em;
-	background: #ddd;
-}
-	
-
-
-
-
-
 
 /*tablet screens*/
 @media screen and (max-width: 600px) {  
@@ -198,7 +256,7 @@ nav a#pull {
 
     nav a#pull {  
         display: block;  
-        background-color: #333; 
+        background-color: black; 
         border-bottom: 1px solid #666; 
         width: 100%;  
         position: relative;  
@@ -213,11 +271,5 @@ nav a#pull {
         left: 50px;  
         top: 0px;  
     }  
-	
-
-	
-	
-
-}
-	
-
+}  
+/*  END OF NAVIGATION BAR CSS CODE  */

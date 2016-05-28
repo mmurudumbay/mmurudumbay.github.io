@@ -1,0 +1,39 @@
+/* CSS Document */
+
+body { font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	}
+	
+
+body { 
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.1, #69FFD2),
+	color-stop(0.46, #0EE2F5),
+	color-stop(1, #00B1F7)
+);
+background-image: -o-linear-gradient(bottom, #69FFD2 10%, #0EE2F5 46%, #00B1F7 100%);
+background-image: -moz-linear-gradient(bottom, #69FFD2 10%, #0EE2F5 46%, #00B1F7 100%);
+background-image: -webkit-linear-gradient(bottom, #69FFD2 10%, #0EE2F5 46%, #00B1F7 100%);
+background-image: -ms-linear-gradient(bottom, #69FFD2 10%, #0EE2F5 46%, #00B1F7 100%);
+background-image: linear-gradient(to bottom, #69FFD2 10%, #0EE2F5 46%, #00B1F7 100%);
+
+	} 
+	
+h1{ 
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.1, #F0FF6B),
+	color-stop(1, #F5008F)
+);
+background-image: -o-linear-gradient(bottom, #F0FF6B 10%, #F5008F 100%);
+background-image: -moz-linear-gradient(bottom, #F0FF6B 10%, #F5008F 100%);
+background-image: -webkit-linear-gradient(bottom, #F0FF6B 10%, #F5008F 100%);
+background-image: -ms-linear-gradient(bottom, #F0FF6B 10%, #F5008F 100%);
+background-image: linear-gradient(to bottom, #F0FF6B 10%, #F5008F 100%);
+}

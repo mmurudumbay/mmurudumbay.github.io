@@ -1,0 +1,25 @@
+/* CSS Document */
+
+body { background: url('rain.jpg')no-repeat center center fixed;
+		background-size: cover;
+}
+
+
+
+#heading {
+	
+	border: thick ;
+	background-color: black;
+	color: white;
+	text-align: center
+	
+}
+
+#nav {
+	line-height: 40px;
+	background-color: white;
+	height: 800px;
+	width: 250px;
+	float: left;
+	padding: 4px;
+}
